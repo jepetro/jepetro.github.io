@@ -1,14 +1,23 @@
 body
 {
   font-family: Tahoma, sans-serif;
-  text-align: center;
   color: #CE7B91;
   background-color: #706C61;
 }
 
-p
+h2
 {
-    text-align: right;
+    text-align: center;
+}
+
+figure
+{
+    text-align: center;
+}
+
+figcaption
+{
+    font-style: italic;
 }
 
 header,footer
