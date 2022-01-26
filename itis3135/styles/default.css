@@ -1,0 +1,13 @@
+body
+{
+  font-family: Tahoma, sans-serif;
+  color: #CE7B91;
+  background-color: #706C61;
+}
+
+header,footer
+{
+  font-family: Courier, serif;
+  text-align: center;
+  color: #B8D3D1;
+}
