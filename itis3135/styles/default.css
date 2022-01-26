@@ -1,8 +1,14 @@
 body
 {
   font-family: Tahoma, sans-serif;
+  text-align: center;
   color: #CE7B91;
   background-color: #706C61;
+}
+
+p
+{
+    text-align: right;
 }
 
 header,footer
