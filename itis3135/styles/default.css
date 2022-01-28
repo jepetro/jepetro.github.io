@@ -7,6 +7,17 @@ body
   margin-right: 50px;
 }
 
+main
+{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.signature
+{
+  font-style: italic;
+}
+
 a
 {
   text-decoration: none;
