@@ -2,7 +2,7 @@
 <html lang = "en-US">
     <head>
         <meta charset = "utf-8">
-        <title>Joseph Petrongelli | ITIS 3135 | Contract</title>
+        <title>Joseph Petrongelli | ITIS 3135 | Forms</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -24,12 +24,31 @@
             </nav>
         </header>
         <main>
-            <h2>Contract</h2>
-            <p>I, Joseph E. Petrongelli agree to abide by the terms of the course contract in my Spring 2022, ITIS3135, Web App Design and Development with my instructor, Professor D.I. von Briesen.</p>
-            <p>I understand that all work that I do on publicly available online tools will be available to the world, and will not put information there that is inappropriate for schoolwork, or that I wish to keep private.</p>
-            <p>I also understand that it is my work that counts for attendance, not logins or showing up for class. As such, failure to turn in assignments may show as absences.</p>
-            <p>I also understand that given the structure and content of this class it’s possible to find many examples online or even view my classmates’ code directly. I swear that I will only use these resources to learn, and will not cut and paste code except where i have properly given credit (i.e. external libraries) and never from my classmates.</p>
-            <p>Signed: <em> Joseph E. Petrongelli, 01/28/2022</em></p>
+            <h2>HTML Forms</h2>
+            
+            <h3>To get on our preorder list fill out the following Information</h3>
+            <form action="#">
+                <label for="first"><strong>First Name</strong>:</label>
+                <input type="text" name="first" id="first" required=""> <br>
+
+                <label for="last"><strong>Last Name</strong>:</label>
+                <input type="text" name="last" id="last" required=""> <br>
+
+                <label for="email"><strong>Email</strong>:
+                    <input type="email" name="email" id="email" required="" placeholder="Enter a valid email address">
+                </label> <br>
+
+                <label for="telephone"><strong>Phone number</strong>:
+                    <input type="tel" required="" placeholder="(###) ###-####" id="telephone" size="10">
+                </label> <br>
+
+                <p>Select preferred contact method:</p>
+                    <input type="radio" id="radioemail" name="contact" value="Email">
+                    <label for="radioemail">Email</label> <br>
+                    <input type="radio" id="radiophone" name="contact" value="Phone">
+                    <label for="radiophone">Phone</label> <br>
+
+            </form>
         </main>
         <footer>
             <nav>
