@@ -1,8 +1,16 @@
 body
 {
   font-family: Tahoma, sans-serif;
-  color: #CE7B91;
+  color: #C0E8F9;
   background-color: #706C61;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a
+{
+  text-decoration: none;
+  color:#FF8552;
 }
 
 h2
