@@ -23,11 +23,18 @@
                 <a href="forms.html">Forms</a>
             </nav>
         </header>
-        <main>
+        <main class="forms-page">
             <h2>HTML Forms</h2>
+
+            <h2>Joseph's Fishing Emporium </h2>
+            <figure>
+            <img src="images/bass.png" alt="bass silhouette">
+            </figure>
+            <p>Find the latest in fishing gear from rods to reels we got it all. We have all the name brands from Shimano, Abu Garcia and Columbia. We even have a few in house brands 
+                if you are looking for a cheaper option. Find all that you need and more here at Joseph's Fishing Emporium.</p>
             
-            <h3>To get on our preorder list fill out the following Information</h3>
-            <form action="#">
+            <h3>Get on our mailing list by filling out the following information</h3>
+            <form action="#" id="form-assignment">
                 <label for="first"><strong>First Name</strong>:</label>
                 <input type="text" name="first" id="first" required=""> <br>
 
@@ -46,8 +53,38 @@
                     <input type="radio" id="radioemail" name="contact" value="Email">
                     <label for="radioemail">Email</label> <br>
                     <input type="radio" id="radiophone" name="contact" value="Phone">
-                    <label for="radiophone">Phone</label> <br>
+                    <label for="radiophone">Phone</label> <br> <br>
 
+                <fieldset>
+                    <legend><strong>Products of Interest</strong>:</legend>
+                    
+                    <input type="checkbox" name="product" value="Clothing" id="clothing" required="">
+                    <label for="clothing">Clothing</label>
+
+                    <input type="checkbox" name="product" value="Fishing Rods" id="fishing-rods" required="">
+                    <label for="fishing-rods">Fishing Rods</label>
+
+                    <input type="checkbox" name="product" value="Fishing Reels" id="fishing-reels" required="">
+                    <label for="fishing-reels">Fishing Reels</label>
+
+                    <input type="checkbox" name="product" value="Lures and Baits" id="lures-and-baits" required="">
+                    <label for="lures-and-baits">Lures and Baits</label>
+
+                    <input type="checkbox" name="product" value="CookWare" id="cookware" required="">
+                    <label for="cookware">CookWare</label>
+                </fieldset> <br>
+
+                <label><strong>Gender</strong>:
+                    <select name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="prefer not to say">Prefer not to say</option>
+                    </select>
+                </label>
+                <br> <br>
+                <input type="submit" class="submit">
+                <input type="reset" class="reset">
             </form>
         </main>
         <footer>
