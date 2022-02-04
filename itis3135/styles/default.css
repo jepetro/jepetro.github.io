@@ -49,12 +49,17 @@ tbody tr:nth-child(odd){
 a
 {
   text-decoration: none;
-  color:#B8D3D1;
+  color:#170A1C;
 }
 
 a:hover
 {
   color: #FF8552;
+}
+
+nav
+{
+  color: #170A1C;
 }
 
 .forms-page
