@@ -3,8 +3,10 @@ body
   font-family: 'Josefin Sans', sans-serif;
   color: #C0E8F9;
   background-color: #706C61;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* main
