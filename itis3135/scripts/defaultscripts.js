@@ -6,10 +6,8 @@ function getResponse()
 }
 
 var today = new Date();
-
-var date = "It is " + today.getHours() + ":" + today.getMinutes() + " on " + today.toDateString();
-
-document.getElementById("timeanddate").innerHTML = date;
+//var date = ;
+document.getElementById("timeanddate").innerHTML = "It is " + today.getHours() + ":" + today.getMinutes() + " on " + today.toDateString();
 
 function starWarsMadLib()
 {
@@ -27,12 +25,14 @@ function starWarsMadLib()
     var partOfTheBodyPlural = prompt("Enter a Part of the Body(Plural)");
     var adverb2 = prompt("Enter an Adverb");
 
-    alert("The Force is a mystical, " + adjective + "power. As Jedi Master Obi-Wan Kenobi once said, \“The Force is an energy field, created by all living" + pluralNoun + ", that surrounds us, penetrates us, and binds the " + noun + "together.\” Using the power of the Force, a Jedi can do many" + adjective2 + "things, like using the Force to exercise " + partOfTheBody + "control over " + adjective3 + "-minded " + pluralNoun + ". A Jedi can also use the Force to move objects with his or her " + partOfTheBody2 + ". It doesn’t matter how " + adjective4 + "these objects are; it only matters how " + adverb + "the Jedi believes in the Force. Most importantly, the Force teaches a Jedi to rely on his or her feelings. As Obi-Wan Kenobi told his student, Luke " + noun2 + "-walker: \“Your " + partOfTheBodyPlural + "can deceive you. Don’t trust them.\” Instead a Jedi should " + adverb2 + "trust in the Force.");
+    document.getElementById("result").innerHTML = "The Force is a mystical, " + adjective + " power. As Jedi Master Obi-Wan Kenobi once said, \“The Force is an energy field, created by all living " + pluralNoun + ", that surrounds us, penetrates us, and binds the " + noun + " together.\” Using the power of the Force, a Jedi can do many " + adjective2 + " things, like using the Force to exercise " + partOfTheBody + " control over " + adjective3 + "-minded " + pluralNoun + ". A Jedi can also use the Force to move objects with his or her " + partOfTheBody2 + ". It doesn’t matter how <strong>" + adjective4 + "</strong> these objects are; it only matters how <strong>" + adverb + "</strong> the Jedi believes in the Force. Most importantly, the Force teaches a Jedi to rely on his or her feelings. As Obi-Wan Kenobi told his student, Luke <strong>" + noun2 + "</strong>-walker: \“Your <strong>" + partOfTheBodyPlural + "</strong> can deceive you. Don’t trust them.\” Instead a Jedi should <strong>" + adverb2 + "</strong> trust in the Force.";
 }
 
-function weightOfPanthers()
+function weightOfPanther()
 {
     var pantherWeightLbs = prompt("Enter the Panther's Weight in Lbs")
     pantherWeightLbs = parseFloat(pantherWeightLbs);
-     
+    var weightInKg = pantherWeightLbs/2.205;
+    document.getElementById("result").innerHTML = "The Panther's weight in Kg is " + Math.round(weightInKg) + "Kg"; 
 }
+
