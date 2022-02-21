@@ -114,3 +114,9 @@ header,footer
   text-align: center;
   color: #B8D3D1;
 }
+
+table
+{
+  margin-left: auto;
+  margin-right: auto;
+}
