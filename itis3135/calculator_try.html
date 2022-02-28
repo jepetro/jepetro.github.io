@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset = "utf-8">
+        <title>Joseph Petrongelli ~ ITIS 3135 ~ Jade Panther ~ Calculator</title>
+        <link rel="icon" type="image/png" href="images/favicon-16x16.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href = "styles/default.css" type = "text/css"  rel = "stylesheet">
+    </head>
+    <body>
+        <div data-include="components/header.html"></div>
+        <main>
+            <h2>Calculator Try</h2> 
+            <table>
+                <tr>
+                    <th colspan="4" class="display">0</th>
+                </tr>
+                <tr>
+                    <td class="calculator-try"><button id="clear">AC</button></td>
+                    <td class="calculator-try"><button class="operator">/</button></td>
+                    <td class="calculator-try"><button class="operator">*</button></td>
+                    <td class="calculator-try"><button class="operator">-</button></td>
+                </tr>
+                <tr>
+                    <td class="calculator-try"><button class="number">7</button></td>
+                    <td class="calculator-try"><button class="number">8</button></td>
+                    <td class="calculator-try"><button class="number">9</button></td>
+                    <td rowspan="2" class="calculator-try"><button class="operator" id="add">+</button></td>
+                </tr>
+                <tr>
+                    <td class="calculator-try"><button class="number">4</button></td>
+                    <td class="calculator-try"><button class="number">5</button></td>
+                    <td class="calculator-try"><button class="number">6</button></td>
+                </tr>
+                <tr>
+                    <td class="calculator-try"><button class="number">1</button></td>
+                    <td class="calculator-try"><button class="number">2</button></td>
+                    <td class="calculator-try"><button class="number">3</button></td>
+                    <td rowspan="2" class="calculator-try"><button class="equal">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="calculator-try"><button class="number">0</button></td>
+                    <td class="calculator-try"><button class="decimal">.</button></td>
+                </tr>
+
+            </table>
+        </main>
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/HTMLInclude.js"></script>      
+    </body>
+</html>
