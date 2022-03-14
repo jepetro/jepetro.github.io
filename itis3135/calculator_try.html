@@ -15,39 +15,39 @@
             <h2>Calculator Try</h2> 
             <table>
                 <tr>
-                    <th colspan="4" class="display">0</th>
+                    <th colspan="4" id="display"></th>
                 </tr>
                 <tr>
                     <td class="calculator-try"><button id="clear">AC</button></td>
-                    <td class="calculator-try"><button class="operator">/</button></td>
-                    <td class="calculator-try"><button class="operator">*</button></td>
-                    <td class="calculator-try"><button class="operator">-</button></td>
+                    <td class="calculator-try"><button id="divide">/</button></td>
+                    <td class="calculator-try"><button id="multiply">*</button></td>
+                    <td class="calculator-try"><button id="subtract">-</button></td>
                 </tr>
                 <tr>
-                    <td class="calculator-try"><button class="number">7</button></td>
-                    <td class="calculator-try"><button class="number">8</button></td>
-                    <td class="calculator-try"><button class="number">9</button></td>
-                    <td rowspan="2" class="calculator-try"><button class="operator" id="add">+</button></td>
+                    <td class="calculator-try"><button id="seven">7</button></td>
+                    <td class="calculator-try"><button id="eight">8</button></td>
+                    <td class="calculator-try"><button id="nine">9</button></td>
+                    <td rowspan="2" class="calculator-try"><button id="add">+</button></td>
                 </tr>
                 <tr>
-                    <td class="calculator-try"><button class="number">4</button></td>
-                    <td class="calculator-try"><button class="number">5</button></td>
-                    <td class="calculator-try"><button class="number">6</button></td>
+                    <td class="calculator-try"><button id="four">4</button></td>
+                    <td class="calculator-try"><button id="five">5</button></td>
+                    <td class="calculator-try"><button id="six">6</button></td>
                 </tr>
                 <tr>
-                    <td class="calculator-try"><button class="number">1</button></td>
-                    <td class="calculator-try"><button class="number">2</button></td>
-                    <td class="calculator-try"><button class="number">3</button></td>
-                    <td rowspan="2" class="calculator-try"><button class="equal">=</button></td>
+                    <td class="calculator-try"><button id="one">1</button></td>
+                    <td class="calculator-try"><button id="two">2</button></td>
+                    <td class="calculator-try"><button id="three">3</button></td>
+                    <td rowspan="2" class="calculator-try"><button id="equal">=</button></td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="calculator-try"><button class="number">0</button></td>
-                    <td class="calculator-try"><button class="decimal">.</button></td>
+                    <td colspan="2" class="calculator-try"><button id="zero">0</button></td>
+                    <td class="calculator-try"><button id="decimal">.</button></td>
                 </tr>
-
             </table>
         </main>
         <div data-include="components/footer.html"></div>
+        <script src="scripts/calculator_try.js"></script>
         <script src="scripts/HTMLInclude.js"></script>      
     </body>
 </html>
