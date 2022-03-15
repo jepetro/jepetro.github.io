@@ -67,20 +67,30 @@
      <!--Add the form here-->
     <form action="#">
       <h2>Enter your name and phone number to win a gift!</h2>
-      <label for="name">Name: <input type="text" name="name" aria-required="true"></label>
-      <label for="phone">Phone Number: <input type="tel" name="phone" aria-required="true"></label>
-      <input type="submit" name="submit" value="submit">
+      <label for="name">Name: <input type="text" name="name" aria-required="true" id="name"></label>
+      <label for="phone">Phone Number: <input type="tel" name="phone" aria-required="true" id="phone"></label>
+      <input type="submit" name="submit" value="Submit" id="submit">
     </form>
+    
+  </main>
+
+  <footer>
     <div class="whitespace"></div>
     <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
     <div class="whitespace"></div>
 
     <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast"> Find out if your font
       color and background color passes WCAG standard!</a>
-  </main>
+    
+    <p>
+      <a href="https://validator.w3.org/check?uri=referer">
+          <img src="../images/button_validation_html5.png" width="88" height="31" alt="Link to HTML validator">
+      </a>
 
-  <footer>
-
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">
+          <img src="../images/button_validation_css.png" width="88" height="31" alt="Link to CSS validator">
+      </a>
+    </p>
   </footer>
 </body>
 </html>

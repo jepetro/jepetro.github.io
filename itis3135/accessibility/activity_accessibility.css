@@ -11,14 +11,21 @@ html {
 /* top heading */
 header,
 h2 {
+  color: #ffe4c4;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 2px 2px 2px #000;
 }
 
 h1 {
   font-size: 60px;
   padding-top: 20px;
 
+}
+
+main
+{
+  margin-bottom: 5px;
 }
 
 /* font size */
@@ -45,12 +52,13 @@ th {
   text-align: left;
   background-color:#262626;
  
-  color:black;
+  color:rgb(211, 166, 166);
 }
 
 table.center {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5px;
 }
 
 /* form */
@@ -58,17 +66,22 @@ form {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
-  color:black;
+  padding: 15px;
+  color:rgb(211, 166, 166);
+  background-color: #262626;
 }
 
+#submit
+{
+  background-color: #262322;
+  color: #C0E8F9;
+}
 
 /* footer bottom of page*/
 footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
   padding-right: 70px;
- 
+  text-align: center;
+  background-color: #262626;
 }
 
 abbr {
@@ -92,4 +105,13 @@ abbr {
   cursor: pointer;
 }
 
+a
+{
+ text-decoration: none;
+ color:powderblue;
+}
 
+a:hover
+{
+  color: orange;
+}
