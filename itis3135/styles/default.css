@@ -128,3 +128,9 @@ table
   margin-left: auto;
   margin-right: auto;
 }
+
+.button, select
+{
+  background-color: #262322;
+  color: #C0E8F9;
+}
