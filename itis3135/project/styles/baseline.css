@@ -7,6 +7,14 @@ body
     margin-right: 100px;
 }
 
+section
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #5E503F;
+    margin-bottom: 5px;
+}
+
 figure, h2, h3 
 {
     text-align: center;
@@ -17,19 +25,39 @@ figcaption
     font-style: italic;
 }
 
+nav
+{
+    color: #0A0908;
+    font-size: 20px;
+    background-color: #5E503F;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer
+{
+    background-color: #5E503F;
+    color: #0A0908;
+    margin-bottom: 5px;
+}
+
 header, footer 
 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #5E503F;
     text-align: center;
 }
 
+header
+{
+color: #5E503F;
+margin-bottom: 5px;
+}
 /* https://coolors.co/0a0908-22333b-eae0d5-c6ac8f-5e503f */
 
 /* Slideshow stuff */
-.slideshow
+.slideshow-container
 {
-  max-width: 1000px;
+  max-width: auto;
   position: relative;
   margin: auto;
 }
@@ -60,6 +88,7 @@ header, footer
 {
   right: 0;
   border-radius: 3px 0 0 3px;
+  margin-right: auto;
 }
 
 .prev:hover, .next:hover
@@ -124,4 +153,9 @@ a
 {
     text-decoration: none;
     color: #0A0908;
+}
+
+a:hover
+{
+    color: #EAE0D5;
 }
