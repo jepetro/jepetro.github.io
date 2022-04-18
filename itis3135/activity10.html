@@ -13,9 +13,60 @@
         <div data-include="components/header.html"></div>
         <main>
             <h2>Image Swap</h2>
-           
+            <div class="container">
+                <div class="slides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="images/pic1.jpg">
+                </div>
+                <div class="slides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="images/pic2.jpg">
+                </div>
+                <div class="slides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="images/pic3.jpg">
+                </div>
+                <div class="slides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="images/pic4.jpg">
+                </div>
+                <div class="slides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="images/pic5.jpg">
+                </div>
+                <div class="slides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="images/pic6.jpg">
+                </div>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="images/pic1-thumbnail.jpg" onclick="currentSlide(1)" alt="Luscious Green Peru Mountians">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/pic2-thumbnail.jpg" onclick="currentSlide(2)" alt="Fields by the river">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/pic3-thumbnail.jpg" onclick="currentSlide(3)" alt="Canted view of a rocky cliff">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/pic4-thumbnail.jpg" onclick="currentSlide(4)" alt="Great pic of me with the greenry to my back">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/pic5-thumbnail.jpg" onclick="currentSlide(5)" alt="Underside of the water fall">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/pic6-thumbnail.jpg" onclick="currentSlide(6)" alt="View from the water fall">
+                    </div>
+                </div>
+            </div>
         </main>
         <div data-include="components/footer.html"></div>
+        <script src="scripts/activity10.js"></script>
         <script src="scripts/HTMLInclude.js"></script>      
     </body>
 </html>

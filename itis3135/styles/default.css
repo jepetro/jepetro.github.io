@@ -182,7 +182,6 @@ table
   color: #FF8552;
 }
 
-
 .slideshow-container
 {
   max-width: auto;
@@ -274,4 +273,56 @@ table
 {
   from{opacity: .4;}
   to{opacity: 1;}
+}
+
+#image_list:li 
+{
+  padding-right: 10px;
+  display: inline;
+}
+
+.container
+{
+  position: relative;
+}
+
+.cursor
+{
+  cursor: pointer;
+}
+
+.caption-container
+{
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row
+{
+  text-align: center;
+}
+
+.row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column
+{
+  float: left;
+  width: 16.66%;
+}
+
+.demo
+{
+  opacity: 0.6;
+}
+
+.active,.demo:hover
+{
+  opacity: 1;
 }
