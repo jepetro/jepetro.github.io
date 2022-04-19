@@ -184,7 +184,7 @@ table
 
 .slideshow-container
 {
-  max-width: auto;
+  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -273,12 +273,6 @@ table
 {
   from{opacity: .4;}
   to{opacity: 1;}
-}
-
-#image_list:li 
-{
-  padding-right: 10px;
-  display: inline;
 }
 
 .container
