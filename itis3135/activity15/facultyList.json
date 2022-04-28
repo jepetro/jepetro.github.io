@@ -1,0 +1,23 @@
+{"facultymembers":[
+	{
+		"full_name": "Debarati Basu",
+		"first_name": "Debarati",
+		"image": "faculty/dr.basu.png",
+		"department": "Software and Information Systems",
+		"bio": "Assistant Teaching Professor"
+	},
+	{
+		"full_name": "Lijuan Cao",
+		"first_name": "Lijuan",
+		"image": "faculty/dr.cao.png",
+		"department": "Software and Information Systems",
+		"bio": "Teaching Associate Professor"
+	},
+	{
+		"full_name": "Bill Chu",
+		"first_name": "Bill",
+		"image": "faculty/dr.chu.png",
+	    "department": "Software and Information Systems",
+		"bio": "Professor"
+	}
+]}

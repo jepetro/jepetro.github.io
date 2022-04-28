@@ -4,22 +4,11 @@
         <meta charset = "utf-8">
         <title>Alvarados in Missions</title>
         <link href = "styles/baseline.css" type = "text/css"  rel = "stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="scripts/nav.js"></script>
     </head>
     <body>
-        <header>
-            <h1>Alvarados in Missions</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                -
-                <a href="gallery.html">Gallery</a>
-                -
-                <a href="about.html">About FMC</a>
-                -
-                <a href="contact.html">Contact</a>
-                -
-                <a href="donate.html">Donate/Learn More</a>
-            </nav>
-        </header>
+        <div data-include="components/header.html"></div>
         <main>
             <h2>About FMC</h2>
             <figure>
@@ -32,17 +21,7 @@
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
             </section>
         </main>
-        <footer>
-            Created by <a href="../petroconsult.co/" target="_blank">Petrongelli Consulting LLC</a> &copy;2022.
-            <p>
-                <a href="https://validator.w3.org/check?uri=referer">
-                    <img src="images/button_validation_html5.png" width="88" height="31" alt="Link to HTML validator">
-                </a>
-    
-                <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                    <img src="images/button_validation_css.png" width="88" height="31" alt="Link to CSS validator">
-                </a>
-            </p>
-        </footer>    
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/HTMLInclude.js"></script>     
     </body>
 </html>

@@ -4,45 +4,50 @@
         <meta charset = "utf-8">
         <title>Alvarados in Missions</title>
         <link href = "styles/baseline.css" type = "text/css"  rel = "stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="scripts/nav.js"></script>
     </head>
     <body>
-        <header>
-            <h1>Alvarados in Missions</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                -
-                <a href="gallery.html">Gallery</a>
-                -
-                <a href="about.html">About FMC</a>
-                -
-                <a href="contact.html">Contact</a>
-                -
-                <a href="donate.html">Donate/Learn More</a>
-            </nav>
-        </header>
+        <div data-include="components/header.html"></div>
         <main>
             <h2>Contact</h2>
             <figure>
                 <img src="images/familybeachpicture.jpg" alt="Family Beach Picture">
                 <figcaption>Family Beach Picture</figcaption>
             </figure>
-            <section>
-                <h2>Info for contact</h2>
-                <p>If you are interested in talking with the Alvarados the best form of contact is through email as they are currently in Peru therefore they don't have a number for contact. </p>
-                <p>Email: alvarados@familymissionscompany.com</p>
-            </section>
+
+                <h3>Want to talk with the Alvarados please fillout the form below</h3>
+                <form action="#">
+                    <div class="form-elements">
+                        <label for="first">First Name:</label>
+                        <input type="text" name="first" id="first" required="">
+                    </div>
+                    <div class="form-elements">
+                        <label for="last">Last Name:</label>
+                        <input type="text" name="last" id="last" required="">
+                    </div>
+
+                    <div class="form-elements">
+                        <label for="email"><strong>Email</strong>:
+                            <input type="email" name="email" id="email" required="" placeholder="Enter a valid email address">
+                        </label> 
+                    </div>
+                    
+                    <label for="telephone"><strong>WhatsApp</strong>:
+                        <input type="tel" placeholder="(###) ###-####" id="telephone" size="10">
+                    </label> <br>
+
+                    <p>Select preferred contact method:</p>
+                    <input type="radio" id="radioemail" name="contact" value="Email">
+                    <label for="radioemail">Email</label> <br>
+                    <input type="radio" id="radiophone" name="contact" value="Phone">
+                    <label for="radiophone">WhatsApp</label> <br> <br>
+
+                    <input type="submit" class="submit">
+                    <input type="reset" class="reset">
+                </form>               
         </main>
-        <footer>
-            Created by <a href="../petroconsult.co/" target="_blank">Petrongelli Consulting LLC</a> &copy;2022.
-            <p>
-                <a href="https://validator.w3.org/check?uri=referer">
-                    <img src="images/button_validation_html5.png" width="88" height="31" alt="Link to HTML validator">
-                </a>
-    
-                <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                    <img src="images/button_validation_css.png" width="88" height="31" alt="Link to CSS validator">
-                </a>
-            </p>
-        </footer>    
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/HTMLInclude.js"></script>
     </body>
 </html>
