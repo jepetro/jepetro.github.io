@@ -2,10 +2,14 @@
 <html lang = "en-US">
     <head>
         <meta charset = "utf-8">
-        <title>Alvarados in Missions</title>
+        <title>Alvarados on Missions</title>
         <link href = "styles/baseline.css" type = "text/css"  rel = "stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="scripts/nav.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     </head>
     <body>
         <div data-include="components/header.html"></div>
@@ -36,6 +40,7 @@
                     <label for="telephone"><strong>WhatsApp</strong>:
                         <input type="tel" placeholder="(###) ###-####" id="telephone" size="10">
                     </label> <br>
+                    <p>Date: <input type="text" id="datepicker"></p>
 
                     <p>Select preferred contact method:</p>
                     <input type="radio" id="radioemail" name="contact" value="Email">
@@ -48,6 +53,7 @@
                 </form>               
         </main>
         <div data-include="components/footer.html"></div>
+        <script src="scripts/date-form.js"></script>
         <script src="scripts/HTMLInclude.js"></script>
     </body>
 </html>

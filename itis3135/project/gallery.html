@@ -2,66 +2,39 @@
 <html lang = "en-US">
     <head>
         <meta charset = "utf-8">
-        <title>Alvarados in Missions</title>
+        <title>Alvarados on Missions</title>
         <link href = "styles/baseline.css" type = "text/css"  rel = "stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="scripts/nav.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
     </head>
     <body>
         <div data-include="components/header.html"></div>
         <main>
             <h2>Gallery</h2>
 
-            <div class="slideshow-container">
-
-                <div class="slides fade">
-                    <div class="numbertext">1 / 6</div>
-                    <img src="images/" alt="" class="slide-images">
-                    <div class="text"></div>
-                </div>
-
-                <div class="slides fade">
-                    <div class="numbertext">2 / 6</div>
-                    <img src="images/" alt="" class="slide-images">
-                    <div class="text"></div>
-                </div>
-
-                <div class="slides fade">
-                    <div class="numbertext">3 / 6</div>
-                    <img src="images/" alt="" class="slide-images">
-                    <div class="text"></div>
-                </div>
-
-                <div class="slides fade">
-                    <div class="numbertext">4 / 6</div>
-                    <img src="images/" alt="" class="slide-images">
-                    <div class="text"></div>
-                </div>
-
-                <div class="slides fade">
-                    <div class="numbertext">5 / 6</div>
-                    <img src="images/" alt="" class="slide-images">
-                    <div class="text"></div>
-                </div>
-
-                <div class="slides fade">
-                    <div class="numbertext">6 / 6</div>
-                    <img src="images/" alt="" class="slide-images">
-                    <div class="text"></div>
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-
-            <div style="text-align: center;">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
+            <div id="slider">
+                <div class="slider-components"><img src="images/gallery-page/picture4.jpg" alt="Miguel passing a chrismas basket" title="Passing out 2021 Christmas baskets for families in need."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture6.jpg" alt="A couple with a chrismas basket" title="Another 2021 Christmas basket. Violeta with Filberto and Inez"></div>
+                <div class="slider-components"><img src="images/gallery-page/picture8.jpg" alt="Angela and Marnith smiling" title="Marnith, the Alvarados helped her receive a surgery and treatment to remove her thyroid cancer!"></div>
+                <div class="slider-components"><img src="images/gallery-page/picture9.jpg" alt="Alvarados with Wilmer and Mavila" title="Visting Wilmer and Mavila who are leaders in their community far up in the mountains."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture10.jpg" alt="Alvarados during a home visit with a family" title="A home visit to Sarina and Crespo, their daughter wants to be a missionary too!"></div>
+                <div class="slider-components"><img src="images/gallery-page/picture11.jpg" alt="Angela with recently baptized Isaura" title="Visiting Isaura, who was recently baptized in her bed!"></div>
+                <div class="slider-components"><img src="images/gallery-page/picture12.jpg" alt="Another picture of WIlmer and Mavila" title="Another picture of Wilmer and Mavila"></div>
+                <div class="slider-components"><img src="images/gallery-page/picture14.jpg" alt="Angela, Violeta and Marnith" title="Checking on Marnith to see how's she's doing."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture15.jpg" alt="Violeta with Cleo and Milagritos" title="Cleo and Milagritos, dear friends of ours, helping us move houses."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture17.jpg" alt="Gathering for songs and prayers" title="Gathering for songs and prayers during a home visit."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture19.jpg" alt="Priest giving Eucharist to bed ridden Silvestre" title="Silvestre, bed ridden for years, receiving Jesus in the Eucharist."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture21.jpg" alt="Miguel having reflections with Cila and Wildoro" title="Sharing a reflection with Cila and Wildoro who both received cataract surgery thanks to our benefactors."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture22.jpg" alt="Angela preparing plates at home visit" title="Angela preparing plates at a home visit."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture23.jpg" alt="Angela reading a Bible story to chilidren" title="Angela reading a Bible story to some kids."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture24.jpg" alt="Alvarados pictured with Estella who received confirmation" title="A picture with Estella after she received confirmation."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture25.jpg" alt="Alvarados with Cila and Wildoro" title="The Alvarados with Cila and Wildoro."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture27.jpg" alt="Angela visting her Peruvian grandma Estefita" title="Visiting Angela's Peruvian &quot;grandma&quot; Estefita."></div>
+                <div class="slider-components"><img src="images/gallery-page/picture29.jpg" alt="Cila, Angela and Violeta sharing a smile" title="Cila and Violeta love one another!"></div>
+                <div class="slider-components"><img src="images/gallery-page/picture30.jpg" alt="A family who recently received help with their house" title="A family who received help constructing parts of their home that was falling down."></div>
             </div>
         </main>
         <div data-include="components/footer.html"></div> 
